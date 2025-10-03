@@ -1,0 +1,13 @@
+repo.bat
+reconfig.*
+build/*
+libs/*
+obj/*
+*.o
+*.so
+*.dll
+*.obj
+*.a
+*.lib
+*.exp
+*.ilk

@@ -416,7 +416,7 @@ MY_CPU_64BIT means that processor can work with 64-bit registers.
 #endif
 
 
-// Disable MY_CPU_LE_UNALIGN. Although the underlying ISA may be able to load
+// Disable MY_CPU_LE_UNALIGN(_64). Although the underlying ISA may be able to load
 // unaligned words, doing so via pointer casts is undefined behavior in C and
 // C++, under both strict aliasing and because it is invalid to construct
 // unaligned pointers. Instead, load the bytes generically and leave optimizing
